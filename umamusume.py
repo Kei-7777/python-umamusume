@@ -50,7 +50,7 @@ def main():
             aapo.touchPos(405, 430)
             aapo.sleep(1)
             # abc と入力
-            aapo.inputtext('abc')
+            aapo.inputtext('a')
             aapo.sleep(1)
             # トレーナー名入力の位置をタップ
             aapo.touchPos(270, 430)
@@ -128,7 +128,7 @@ def main():
             aapo.touchPos(270, 405)
             aapo.sleep(1)
             # 1qazXSW2 と入力
-            aapo.inputtext('1qazXSW2')
+            aapo.inputtext('mayudwqjim')
             aapo.sleep(1)
             # 確認入力の位置をタップ1
             aapo.touchPos(270, 505)
@@ -137,7 +137,7 @@ def main():
             aapo.touchPos(270, 505)
             aapo.sleep(1)
             # 1qazXSW2 と入力
-            aapo.inputtext('1qazXSW2')
+            aapo.inputtext('mayudwqjim')
             aapo.sleep(1)
             # プライバシーポリシーの位置をタップ1
             aapo.touchPos(135, 620)
