@@ -160,8 +160,8 @@ def main():
             aapo.touchPos(480, 930)
             aapo.sleep(2)
             # サポートカードの位置をタップ
-            # aapo.touchPos(460, 580)
-            # aapo.sleep(1)
+            aapo.touchPos(460, 580)
+            aapo.sleep(1)
         
         # 10回引く！
         elif aapo.touchImg('./umamusume/10-kaihiku.png'):
