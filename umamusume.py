@@ -16,6 +16,8 @@ def main():
     mode = 0 # モード0(リセット)
     folderName = ''
     stackCount = 0
+    
+    reset()
 
     # スタート
     start()
@@ -258,7 +260,7 @@ def reset():
     aapo.inputkeyevent(187)
     aapo.sleep(1)
     # すべて消去の位置をタップ
-    aapo.touchPos(700, 55)
+    aapo.touchPos(486, 60)
     aapo.sleep(1)
     return
 
